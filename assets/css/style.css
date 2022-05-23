@@ -7,12 +7,21 @@
  .btn{
   margin: 20px 0px 20px;
   background-color: blue;
-  padding: 10px;
-  border-radius: 18px;
+  padding: 5px 10px;
+  border-radius: 8px;
   text-decoration: none;
   font-size: 25px;
   color: white;
   font-weight: bolder;
+  transition: all 0.3s ease;
+   
+ }
+ .btn:hover{
+  color: blue;
+  background-color: #fff;
+  border: 2px solid blue;
+  font-weight: lighter;
+   
    
  }
 .header{
@@ -69,17 +78,31 @@
  text-decoration: none;
  font-size: 25px;
  color: blue;
+ transition: all 0.3s ease;
 }
-
+.navbar nav ul li a:hover{
+  color: black;
+  font-weight: lighter;
+   
+ }
 .navbar .btn{
   margin: 25px;
   background-color: blue;
-  padding: 10px;
-  border-radius: 18px;
+  padding:7px 10px;
+  border-radius: 8px;
   text-decoration: none;
   font-size: 25px;
   color: white;
   font-weight: bolder;
+  transition: all 0.3s ease;
+   
+ }
+ .navbar .btn:hover{
+  color: blue;
+ background-color: #fff;
+ border: 2px solid blue;
+ font-weight: lighter;
+  
    
  }
 /*----header part-*/
@@ -146,6 +169,62 @@
   filter: brightness(90%);
 }
 
+/*-----about-----*/
+.about-me {
+  display: flex;
+  margin-top: 40px;
+}
+.about-me .about-text .bton{
+  margin: 25px;
+  background-color: blue;
+   padding:7px 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+  text-align: center; 
+  border: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  
+ }
+ .about-me .about-text .bton:hover{
+ color: blue;
+ background-color: #fff;
+ border: 2px solid blue;
+ font-weight: lighter;
+  
+ }
+.about-me img {
+ height: 200px;
+ width: 100%
+}
+.about-me .about-text{
+  margin-right: 10rem;
+  background-color: white;
+ 
+}
+ 
+.about-me .about-text h2{
+text-align: center;
+font-size: 42px;
+letter-spacing: 3px;
+ 
+}
+.about-me .about-text  h5{
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 32px;
+  color: black;
+  
+  }
+.about-me .about-text  span{
+  text-align: center;
+  font-size: 32px;
+  color: blue;
+  
+  }
 
 /*----add media query---*/
 
@@ -293,9 +372,7 @@
 
 
 
-.about-me{
-  background-color: blue;
-}
+
 .contact-me{
   background-color: blueviolet;
 }
