@@ -16,13 +16,13 @@
   width: 100%;
   justify-content: space-between;
   position: fixed;
-  background-color: red;
+  /* background-color: red; */
   top: 0;
   left: 0;
 
 }
 .navbar .logo {
- margin: 10px;
+ margin: 12px;
  
 }
 .navbar .logo a {
@@ -42,6 +42,21 @@
 .navbar.sticky .logo a span {
   color: #fff;
 }
+.navbar nav{
+  margin: 7px;
+}
+.navbar nav ul li{
+  display: inline-block;
+  padding: 22px;
+  list-style: none;
+}
+.navbar nav ul li a{
+ text-decoration: none;
+ font-size: 25px;
+ color: blue;
+}
+
+
 
 
 
