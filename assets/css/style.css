@@ -259,7 +259,16 @@ letter-spacing: 3px;
   background-color: #fff;
   border: 2px solid blue;
   font-weight: lighter;
-   
+ 
+  }
+   /*----cfooter section---*/
+   footer {
+     display: flex;
+     justify-content: space-between;
+    border-radius: 12px;
+    height: 25vh;
+    margin: 30px 8px;
+    border-bottom: 2px solid whitesmoke;
   }
 
 /*----add media query---*/
@@ -409,9 +418,7 @@ letter-spacing: 3px;
 
 
 
-footer{
-  background-color: chartreuse;
-}
+
 .endnote{
   background-color: chocolate;
 }
