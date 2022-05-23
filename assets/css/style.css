@@ -4,6 +4,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+ .btn{
+  margin: 20px 0px 20px;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+   
+ }
 .header{
   position: relative;
   width: 100%;
@@ -65,9 +76,6 @@
   background-color: blue;
   padding: 10px;
   border-radius: 12px;
-   
- }
- .navbar .btn { 
   text-decoration: none;
   font-size: 25px;
   color: white;
@@ -99,8 +107,16 @@
   padding: 12px;
   
  }
-
-
+ .header .content-box .content h1{
+	color: blue;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+ }
+ .header .content-box .content h3{
+	color: black;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
 
 
 
