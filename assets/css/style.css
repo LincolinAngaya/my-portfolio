@@ -227,10 +227,11 @@ letter-spacing: 3px;
   }
   /*----contact me section---*/
   .contact-me {
-    background-color: whitesmoke;
     border-radius: 12px;
-    height: 30vh;
+    height: 25vh;
     margin: 12px 8px;
+    border-top: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
   }
   .contact-me p {
    color: black;
@@ -244,7 +245,7 @@ letter-spacing: 3px;
      padding:7px 10px;
     border-radius: 8px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 29px;
     color: white;
     font-weight: bolder;
     text-align: center; 
@@ -252,7 +253,7 @@ letter-spacing: 3px;
     transition: all 0.3s ease;
     cursor: pointer;
    }
-   
+
    .contact-me .button-two:hover{
   color: blue;
   background-color: #fff;
