@@ -225,6 +225,41 @@ letter-spacing: 3px;
   color: blue;
   
   }
+  /*----contact me section---*/
+  .contact-me {
+    background-color: whitesmoke;
+    border-radius: 12px;
+    height: 30vh;
+    margin: 12px 8px;
+  }
+  .contact-me p {
+   color: black;
+   font-size: 36px;
+   letter-spacing: 4px;
+   padding: 36px 8px;
+  }
+  .contact-me .button-two {
+    margin: 25px;
+    background-color: blue;
+     padding:7px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    text-align: center; 
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+   }
+   
+   .contact-me .button-two:hover{
+  color: blue;
+  background-color: #fff;
+  border: 2px solid blue;
+  font-weight: lighter;
+   
+  }
 
 /*----add media query---*/
 
@@ -373,9 +408,6 @@ letter-spacing: 3px;
 
 
 
-.contact-me{
-  background-color: blueviolet;
-}
 footer{
   background-color: chartreuse;
 }
