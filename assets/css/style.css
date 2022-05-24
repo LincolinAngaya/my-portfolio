@@ -142,9 +142,10 @@ section {
   justify-content: space-between;
 }
 .header .content-box img {
-  height: 600px;
+  height: 500px;
   border-radius: 330px;
   margin-right: 10rem;
+  margin-top: 4.5rem;
   
 }
 .header .content-box .content{
@@ -168,34 +169,6 @@ section {
 	color: black;
 	font-size: 29px;
 	margin-bottom: 50px;
-}
-.scroll-up-btn {
-  position: fixed;
-  height: 45px;
-  width: 42px;
-  background: crimson;
-  right: 30px;
-  bottom: 10px;
-  text-align: center;
-  line-height: 45px;
-  color: #fff;
-  z-index: 9999;
-  font-size: 30px;
-  border-radius: 6px;
-  border-bottom-width: 2px;
-  cursor: pointer;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s ease;
-}
-.scroll-up-btn.show {
-  bottom: 30px;
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.scroll-up-btn:hover {
-  filter: brightness(90%);
 }
 
 /*-----about-----*/
