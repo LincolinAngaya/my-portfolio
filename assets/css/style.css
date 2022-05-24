@@ -7,7 +7,6 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
   -webkit-transition: .2s linear;
   transition: .2s linear;
 
@@ -174,59 +173,64 @@ section {
 /*-----about-----*/
 .about-me {
   display: flex;
-  margin-top: 40px;
+  margin-top: 10px;
+
 }
 .about-me .about-text .bton{
   margin: 25px;
-  background-color: blue;
+  border: 2px solid blue;
    padding:7px 10px;
-  border-radius: 8px;
+  border-radius: 5px;
   text-decoration: none;
   font-size: 25px;
-  color: white;
-  font-weight: bolder;
-  border: none;
+  color: black;
+  font-weight: lighter;
+ 
   transition: all 0.3s ease;
   cursor: pointer;
+  background-color: white;
   
  }
  .about-me .about-text .bton:hover{
- color: blue;
- background-color: #fff;
- border: 2px solid blue;
+ color: white;
+ background-color: blue;
  font-weight: lighter;
   
  }
 .about-me img {
  margin: 5rem 8rem;
- border: 2px solid black;
+
 }
 .about-me .about-text{
   margin-right: 10rem;
   background-color: white;
-  border: 2px solid black;
+ 
 }
  
 .about-me .about-text h2{
 text-align: center;
 font-size: 49px;
 letter-spacing: 3px;
+padding: 12px;
+color: blue;
  
 }
 .about-me .about-text  h5{
-  text-align: center;
+  text-align: left;
   letter-spacing: 3px;
   font-size: 34px;
   color: black;
+  padding: 12px;
   
   }
   .about-me .about-text  p{
     text-align: center;
-    letter-spacing: 3px;
-    font-size: 34px;
+    letter-spacing: 4px;
+    font-size: 24px;
     color: black;
     text-align: left;
     padding: 12px;
+    line-height: 1.5;
     
     }
 .about-me .about-text  span{
@@ -257,7 +261,6 @@ letter-spacing: 3px;
     text-decoration: none;
     font-size: 29px;
     color: white;
-    font-weight: bolder;
     border: none;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -274,7 +277,7 @@ letter-spacing: 3px;
    
 .footer {
   border-bottom: 2px solid whitesmoke;
-    height: 43vh;
+    height: 40vh;
     
   } 
   
