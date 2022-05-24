@@ -185,7 +185,6 @@ section {
   font-size: 25px;
   color: white;
   font-weight: bolder;
-  text-align: center; 
   border: none;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -199,28 +198,37 @@ section {
   
  }
 .about-me img {
- height: 200px;
- width: 100%
+ margin: 5rem 8rem;
+ border: 2px solid black;
 }
 .about-me .about-text{
   margin-right: 10rem;
   background-color: white;
- 
+  border: 2px solid black;
 }
  
 .about-me .about-text h2{
 text-align: center;
-font-size: 42px;
+font-size: 49px;
 letter-spacing: 3px;
  
 }
 .about-me .about-text  h5{
   text-align: center;
   letter-spacing: 3px;
-  font-size: 32px;
+  font-size: 34px;
   color: black;
   
   }
+  .about-me .about-text  p{
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 34px;
+    color: black;
+    text-align: left;
+    padding: 12px;
+    
+    }
 .about-me .about-text  span{
   text-align: center;
   font-size: 32px;
@@ -474,23 +482,3 @@ letter-spacing: 3px;
 
 
 
-
-
-
-
-
-
-
-
-.endnote{
-  background-color: chocolate;
-}
-.contact-form{
-  background-color:darkolivegreen
-}
-.skills{
-  background-color: blueviolet;
-}
-.edu{
-  background-color: blue;
-}
