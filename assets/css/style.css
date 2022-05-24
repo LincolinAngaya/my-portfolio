@@ -267,9 +267,9 @@ letter-spacing: 3px;
    font-size: 36px;
    letter-spacing: 4px;
    padding: 36px 8px;
+   text-align: center;
   }
   .contact-me .button-two {
-    margin: 25px;
     background-color: blue;
      padding:7px 10px;
     border-radius: 8px;
@@ -277,7 +277,6 @@ letter-spacing: 3px;
     font-size: 29px;
     color: white;
     font-weight: bolder;
-    text-align: center; 
     border: none;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -294,7 +293,7 @@ letter-spacing: 3px;
    
 .footer {
   border-bottom: 2px solid whitesmoke;
-    height: 50vh;
+    height: 43vh;
     
   } 
   
@@ -333,9 +332,9 @@ letter-spacing: 3px;
   
   }
   
-  .footer .credit {
+   .credit {
     text-align: center;
-    margin-top: 1.8rem;
+    /* margin-top: 1.8rem; */
     padding: 1rem;
     padding-top: 2.5rem;
     font-size: 2rem;
