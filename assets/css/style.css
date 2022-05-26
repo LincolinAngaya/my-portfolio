@@ -165,16 +165,18 @@ nav ul li a::after{
   justify-content: space-between;
 }
 .header .content-box img {
-  height: 500px;
-  border-radius: 330px;
+  height: 550px;
+  border-radius: 50%;
   margin-right: 10rem;
-  margin-top: 4.5rem;
+  margin-top: 11.5rem;
   
 }
 .header .content-box .content{
- margin-top: 25px;
+ margin-top: 11.5rem;
  align-items: center;
- margin-left: 7rem;
+ margin-left: 9rem;
+ display: block;
+ align-items: center;
  
 }
 .header .content-box .content h4{
