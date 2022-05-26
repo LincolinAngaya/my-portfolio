@@ -332,6 +332,7 @@ color: blue;
     font-size: 3rem;
     padding: 0px 10px 10px 10px;
     color: black;
+
   }
   
   .footer .box-container .box a {
@@ -339,6 +340,7 @@ color: blue;
     font-size: 1.9rem;
     color: blue;
     padding: 1rem 0;
+    margin-left: 25px;
   }
   
   .footer .box-container .box a i {
