@@ -34,22 +34,26 @@ html::-webkit-scrollbar-thumb {
 section {
   padding: 5rem 9%;
 }
+
+
+
  .btn{
+  border: 2px solid blue;
+  background: transparent;
   margin: 20px 0px 20px;
-  background-color: blue;
-  padding: 5px 10px;
-  border-radius: 8px;
+  padding: 10px 25px;
+  border-radius: 20px;
   text-decoration: none;
   font-size: 25px;
-  color: white;
-  font-weight: bolder;
+  color: blue;
+  cursor: pointer;
   transition: all 0.3s ease;
    
  }
  .btn:hover{
   color: blue;
   background-color: #fff;
-  border: 2px solid blue;
+  border: 2px solid black;
   font-weight: lighter;
   
  }
@@ -126,26 +130,29 @@ nav ul li a::after{
    width: 100%;
   
  }
-/* .navbar nav ul li a:hover{
+.navbar nav ul li a:hover{
   color: black;
   font-weight: lighter;
    
- } */
+ } 
 .navbar .btn{
   margin: 25px;
-  background-color: blue;
-  padding:7px 10px;
-  border-radius: 8px;
+  font-size: 20px;
+  border: 2px solid blue;
+  background: transparent;
+  padding: 10px 25px;
+  border-radius: 20px;
   text-decoration: none;
   font-size: 25px;
-  color: white;
+  color: blue;
+  cursor: pointer;
   transition: all 0.3s ease;
    
  }
  .navbar .btn:hover{
-  color: blue;
- background-color: #fff;
- border: 2px solid blue;
+  color: black;
+ background-color: whitesmoke;
+ border: 2px solid black;
  font-weight: lighter;
   
    
