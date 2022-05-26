@@ -140,15 +140,15 @@ nav ul li a::after{
   font-size: 20px;
   border: 2px solid blue;
   background: transparent;
-  padding: 10px 25px;
+  padding: 5px 15px;
   border-radius: 20px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: blue;
   cursor: pointer;
   transition: all 0.3s ease;
-   
  }
+ 
  .navbar .btn:hover{
   color: black;
  background-color: whitesmoke;
@@ -316,7 +316,7 @@ color: blue;
    
 .footer {
     height: 40vh;
-    
+
     
   } 
   
