@@ -315,8 +315,8 @@ color: blue;
    /*----footer section---*/
    
 .footer {
- 
     height: 40vh;
+    
     
   } 
   
@@ -359,7 +359,6 @@ color: blue;
   
    .credit {
     text-align: center;
-    /* margin-top: 1.8rem; */
     padding: 1rem;
     padding-top: 2.5rem;
     font-size: 2rem;
@@ -369,160 +368,3 @@ color: blue;
     
   /*-------conactact form section----*/
   
-  
-  @media (max-width: 1200px) {
-    .header {
-      padding: 2rem;
-    }
-  
-    section {
-      padding: 3rem 2rem;
-    }
-  }
-  
-  @media (max-width: 991px) {
-    html {
-      font-size: 55%;
-      scroll-padding-top: 7rem;
-    }
-
-/*----add media query---*/
-
-@media (max-width: 1104px) {
-  .header{
-  position: relative;
-  width: 100%;
-  height: 80vh;
-  box-sizing: border-box;
-     
-  }
-}
-
-@media (max-width: 991px) {
-  .max-width {
-      padding: 0 50px;
-  }
-  .navbar{
-    display: inline-flex;
-    width: 100%;
-    background-color: #fff;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    left: 0;
-    border-bottom: 3px solid whitesmoke; 
-}
-.navbar .logo {
-  margin: 12px;
-  
- }
- .navbar .logo a {
-   color: black;
-   font-size: 30px;
-   font-weight: 600;
-   font-family:'poppin';
-   text-decoration: none;
-  
- }
- 
- .navbar .logo a span {
-   color: blue;
-   transition: all 0.3s ease;
- }
- 
- .navbar.sticky .logo a span {
-   color: #fff;
- }
- .navbar nav{
-   margin: 7px;
-   
- }
- .navbar nav ul li{
-   display: inline-block;
-   padding: 10px;
-   list-style: none;
- }
- .navbar nav ul li a{
-  text-decoration: none;
-  font-size: 20px;
-  color: blue;
- }
- 
- .navbar .btn{
-   margin: 10px;
-   background-color: blue;
-   padding: 17px;
-   border-radius: 18px;
-   text-decoration: none;
-   font-size: 15px;
-   color: white;
-   font-weight: bolder;
-    
-  }
-
-  .header .content-box{
-  display: inline;
-    margin-top: 4em;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .header .content-box img {
-    height: 300px;
-    border-radius: 330px;
-    margin-left: 4.5rem;
-    margin-top: 4em;
-    
-  }
-  .header .content-box .content{
-   margin-top: 9rem;
-   align-items: center;
-   margin-left: 7rem;
-   
-  }
-  .header .content-box .content h4{
-    letter-spacing: 3px;
-    font-size: 29px;
-    padding: 9px;
-    
-   }
-   .header .content-box .content h1{
-    color: blue;
-    margin: 20px 0px 20px;
-    font-size: 35px;
-   }
-   .header .content-box .content h3{
-    color: black;
-    font-size: 29px;
-    margin-bottom: 50px;
-  }
-  .btn{
-    margin: 20px 0px 20px;
-    background-color: blue;
-    padding: 8px;
-    border-radius: 18px;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    font-weight: bolder;
-     
-   }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
