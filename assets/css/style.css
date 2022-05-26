@@ -205,28 +205,31 @@ nav ul li a::after{
 /*-----about-----*/
 .about-me {
   display: flex;
-  /* margin-top: 69px; */
+  margin-top: 39px;
 
 }
 .about-me .about-text .bton{
-  margin: 25px;
+  margin:0;
   border: 2px solid blue;
    padding:7px 10px;
-  border-radius: 5px;
+  border-radius: 6px;
   text-decoration: none;
   font-size: 25px;
-  color: black;
+  color: blue;
   font-weight: lighter;
- 
   transition: all 0.3s ease;
   cursor: pointer;
   background-color: white;
+  margin-left: 190px;
+  align-items: center;
+  position: relative;
   
  }
  .about-me .about-text .bton:hover{
- color: white;
- background-color: blue;
+ color: black;
+ background-color: whitesmoke;
  font-weight: lighter;
+ border:2px solid black;
   
  }
 .about-me img {
@@ -238,6 +241,8 @@ nav ul li a::after{
   background-color: white;
   box-shadow: 4px 2px 6px 6px rgba(0,0,250,0.3);
   border-radius: 10px;
+  height: 90vh;
+
 
  
 }
@@ -251,7 +256,7 @@ color: blue;
  
 }
 .about-me .about-text  h5{
-  text-align: left;
+  text-align: center;
   letter-spacing: 3px;
   font-size: 34px;
   color: black;
@@ -265,7 +270,7 @@ color: blue;
     color: black;
     text-align: left;
     padding: 12px;
-    line-height: 1.5;
+    line-height: 1.9;
     
     }
 .about-me .about-text  span{
@@ -280,8 +285,7 @@ color: blue;
     height: 25vh;
     margin: 12px 8px;
     background-color: whitesmoke;
-    border-top: 2px solid whitesmoke;
-    border-bottom: 2px solid whitesmoke;
+    
   }
   .contact-me p {
    color: black;
