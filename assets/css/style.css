@@ -10,6 +10,7 @@
   -webkit-transition: .2s linear;
   transition: .2s linear;
 
+
 }
 html {
   font-size: 62.5%;
@@ -55,8 +56,9 @@ section {
 .header{
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   box-sizing: border-box;
+  background-color: whitesmoke;
  
   
 
@@ -69,7 +71,6 @@ section {
   position: fixed;
   top: 0;
   left: 0;
-  border-bottom: 3px solid whitesmoke;
 
 }
 .navbar .logo {
@@ -106,13 +107,30 @@ section {
  text-decoration: none;
  font-size: 25px;
  color: blue;
- transition: all 0.3s ease;
+ position:relative;
+ /* transition: all 0.3s ease; */
 }
-.navbar nav ul li a:hover{
+nav ul li a::after{
+  content: '';
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: black;
+  transition: width 0.3s;
+
+ }
+ nav ul li a:hover::after{
+   width: 100%;
+  
+ }
+/* .navbar nav ul li a:hover{
   color: black;
   font-weight: lighter;
    
- }
+ } */
 .navbar .btn{
   margin: 25px;
   background-color: blue;
@@ -172,7 +190,7 @@ section {
 /*-----about-----*/
 .about-me {
   display: flex;
-  margin-top: 10px;
+  /* margin-top: 69px; */
 
 }
 .about-me .about-text .bton{
@@ -203,6 +221,9 @@ section {
 .about-me .about-text{
   margin-right: 10rem;
   background-color: white;
+  box-shadow: 4px 2px 6px 6px rgba(0,0,250,0.3);
+  border-radius: 10px;
+
  
 }
  
