@@ -283,7 +283,7 @@ color: blue;
   .contact-me {
     border-radius: 12px;
     height: 25vh;
-    margin: 12px 8px;
+    margin: 39px 8px;
     background-color: whitesmoke;
     
   }
@@ -295,21 +295,21 @@ color: blue;
    text-align: center;
   }
   .contact-me .button-two {
-    background-color: blue;
+    background-color:transparent;
      padding:7px 10px;
-    border-radius: 8px;
+    border-radius: 5px;
     text-decoration: none;
-    font-size: 29px;
-    color: white;
-    border: none;
+    font-size: 25px;
+    color: blue;
+    border: 2px solid blue;
     transition: all 0.3s ease;
     cursor: pointer;
    }
 
    .contact-me .button-two:hover{
-  color: blue;
+  color: black;
   background-color: #fff;
-  border: 2px solid blue;
+  border: 2px solid black;
   font-weight: lighter;
  
   }
