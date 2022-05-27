@@ -185,7 +185,7 @@ nav ul li a::after{
   padding: 12px;
   
  }
- .header .content-box .content h1{
+.content h1{
 	color: blue;
 	margin: 20px 0px 20px;
 	font-size: 75px;
@@ -391,52 +391,62 @@ color: blue;
    left: 12%;
     }
     .header .content-box{
-      background-color: red;
       display: inline-block;
+      align-items: center;
+      justify-content: center;
     }
-    align-items: center;
-    justify-content: space-between;
-  }
-  .header .content-box img {
-    height: 550px;
-    border-radius: 50%;
-    margin-right: 10rem;
-    margin-top: 11.5rem;
-    
-  }
-  .header .content-box .content{
-   margin-top: 11.5rem;
-   align-items: center;
-   margin-left: 9rem;
-   display: block;
-   align-items: center;
    
-  }
-  .header .content-box .content h4{
-    letter-spacing: 3px;
-    font-size: 39px;
-    padding: 12px;
+    .header .content-box img {
+      height: 300px;
+      border-radius: 50%;
+      margin-left: 62px;
+      margin-top: 30px;
+      align-items: center;
+      
+    }
+    .header .content-box .content{
+      align-items: center;
+      width: 100%;
+      display: block;
+      align-items: center;
+      
+     }
     
-   }
-   .header .content-box .content h1{
-    color: blue;
-    margin: 20px 0px 20px;
-    font-size: 75px;
-   }
-   .header .content-box .content h3{
-    color: black;
-    font-size: 29px;
-    margin-bottom: 50px;
-  }
-  .text-box a span{
-    font-size: 30px;
-    line-height: 15px;
-    margin-left: 10px;
+    .header .content-box .content{
+     justify-content: center;
+     display: block;
+     align-items: center;
+     margin-top: 30px;
+     
+    }
+    .header .content-box .content h4{
+      letter-spacing: 3px;
+      font-size: 25px;
+      padding: 12px 12px 0px 12px;
+      
+     }
+    .content h1{
+      color: blue;
+      padding: 12px 12px 0px 12px;
+      font-size: 40px;
+      
+     }
+     .header .content-box .content h3{
+      color: black;
+      font-size: 20px;
+      padding: 12px 12px 0px 12px;
+    }
+    .text-box a span{
+      font-size: 10px;
+      line-height: 9px;
   
-  
+    }
   }
+ 
+  
+ 
     
-  } 
+  
   @media (max-width:944px){
     
     .logo{
@@ -450,7 +460,7 @@ color: blue;
       
         }
      
-      
+    
     } 
     @media (max-width:860px){
       
