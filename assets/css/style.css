@@ -441,6 +441,20 @@ color: blue;
       line-height: 9px;
   
     }
+    .btn{
+      border: 2px solid blue;
+      background: transparent;
+      margin: 10px 0px 20px;
+      padding: 7px 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 15px;
+      color: blue;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margi
+       
+     }
   }
  
   
