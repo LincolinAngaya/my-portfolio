@@ -390,7 +390,51 @@ color: blue;
   .logo{
    left: 12%;
     }
+    .header .content-box{
+      background-color: red;
+      display: inline-block;
+    }
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header .content-box img {
+    height: 550px;
+    border-radius: 50%;
+    margin-right: 10rem;
+    margin-top: 11.5rem;
+    
+  }
+  .header .content-box .content{
+   margin-top: 11.5rem;
+   align-items: center;
+   margin-left: 9rem;
+   display: block;
+   align-items: center;
    
+  }
+  .header .content-box .content h4{
+    letter-spacing: 3px;
+    font-size: 39px;
+    padding: 12px;
+    
+   }
+   .header .content-box .content h1{
+    color: blue;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+   }
+   .header .content-box .content h3{
+    color: black;
+    font-size: 29px;
+    margin-bottom: 50px;
+  }
+  .text-box a span{
+    font-size: 30px;
+    line-height: 15px;
+    margin-left: 10px;
+  
+  
+  }
     
   } 
   @media (max-width:944px){
