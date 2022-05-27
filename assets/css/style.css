@@ -359,8 +359,8 @@ color: blue;
   
    .credit {
     text-align: center;
-    padding: 1rem;
-    padding-top: 2.5rem;
+    padding: 0.5rem;
+    padding-top: 1.5rem;
     font-size: 2rem;
     color: white;
     text-align: center;
@@ -373,7 +373,7 @@ color: blue;
        color:black;
        font-size: 30px;
        float: right;
-       line-height: 80px;
+       line-height: 50px;
        margin-right: 40px;
        cursor: pointer;
         display: none;
@@ -409,26 +409,12 @@ color: blue;
       
     } 
     @media (max-width:860px){
-      .navbar{
-        background-color: red;
-      }
+      
         .navbar nav ul li a{
           font-size: 15px;
           }
-          .navbar .btn{
-            margin: 10px;
-            font-size: 15px;
-            border: 1px solid blue;
-            background: transparent;
-            padding:6px;
-            justify-content: center;
-            border-radius: 10px;
-            text-decoration: none;
-            font-size: 15px;
-            color: blue;
-            cursor: pointer;
-            transition: all 0.3s ease;
-           }
+          
+
            
           label #btn{
             display: block;
@@ -439,11 +425,11 @@ color: blue;
          height: 40vh;
          background: #fff;
          top:70px;
-         left: 0%;
-         opacity: 0.9;
+         left: -100%;
+       
          text-align: center;
          transition: all .5s;
-         z-index: 1;
+      
          border: 1px solid whitesmoke;
          border-radius: 10px;
         
@@ -461,7 +447,7 @@ color: blue;
         
         }
      #check:checked ~  .navbar nav ul li{
-          left: -100;
+          left: 0;
         }
            
    
