@@ -446,11 +446,11 @@ color: blue;
          font-size: 20px;
         
         }
-/*        
-        #check:checked ~ .menu-bar ul{
+     #check:checked ~  .navbar nav ul li{
           left: -100;
         }
-        
+           
+   
         #check:checked ~  label #btn{
           display: none;
 
@@ -459,5 +459,5 @@ color: blue;
          
         #check:checked ~ label #cancel{
           display: block;
-        }  */
+        }  
       }
